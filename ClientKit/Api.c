@@ -157,6 +157,7 @@ static bool isSupportService(const char *name)
 {
     if (strcmp(name, "TestService")
         && strcmp(name, "itlwmx") && strcmp(name, "itlwm")
+        && strcmp(name, "RTWCore")
         ) {
         return false;
     }
